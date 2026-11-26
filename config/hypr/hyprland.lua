@@ -30,13 +30,19 @@ hl.monitor({
     scale    = "auto",
 })
 
+hl.monitor({
+    output = "eDP-1",
+    mode = "2880x1800@90",
+    position = "0x0",
+    scale = 1.5,
+})
 
 ---------------------
 ---- MY PROGRAMS ----
 ---------------------
 
 -- Set programs that you use
-local terminal    = "kitty"
+local terminal    = "wezterm"
 local fileManager = "dolphin"
 local menu        = "hyprlauncher"
 
