@@ -10,3 +10,4 @@ ln -sT --backup=numbered "$repo/config/starship.toml" "$config/starship.toml"
 
 mkdir -p "$config/hypr"
 ln -sT --backup=numbered "$repo/config/hypr/hyprland.lua" "$config/hypr/hyprland.lua"
+ln -sT --backup=numbered "$repo/config/hypr/modules" "$config/hypr/modules"
